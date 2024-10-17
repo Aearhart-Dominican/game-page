@@ -21,10 +21,13 @@ header {
     border-style: solid;
     border-color: black;
     border-bottom-width: .5vh;
+    padding-bottom: 0;
+    align-items: flex-end;
 }
 
 #navbar * {
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 nav ol {
@@ -33,11 +36,15 @@ nav ol {
     justify-content: space-around;
     margin-top: 4vh;
     list-style: none;
+    font-size: 120%;
 }
 
 h1 {
     width: 15vw;
-    padding-left: 2vw;
+    padding-left: 1vw;
+    text-align: center;
+    font-size: 200%;
+    line-height: 80%;
 }
 
 nav li {
@@ -48,7 +55,7 @@ section {
     text-align: center;
     width: 75vh;
     height: fit-content;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     padding-top: 2vh;
     background-color: white;
     margin-top: 10vh;
@@ -113,6 +120,7 @@ li {
 #py li, #phaser li {
     display: flex;
     flex-direction: column;
+    margin-top: 20%;
 }
 
 a {
@@ -125,6 +133,10 @@ a:hover {
     color: plum;
 }
 
+#navbar a:hover {
+    color: plum;
+}
+
 img {
     width: 10rem;
     height: auto;
@@ -133,4 +145,17 @@ img {
     border-width: 100%;
     border-color: black;
     border-radius: 15%;
+}
+
+#navbar img {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    top: 45%;
+    right: 9vw;
+}
+
+#py h3, #phaser h3 {
+    margin-bottom: 0;
 }
