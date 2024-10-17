@@ -105,8 +105,12 @@ ul {
     padding: 0;
 }
 
-ol li {
-    text-align: justify;
+
+
+#instruct ol li {
+    width: 60vw;
+    text-align: left;
+    margin-bottom: 2%;
 }
 
 li {
