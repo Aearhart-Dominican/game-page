@@ -108,7 +108,7 @@ ul {
 
 
 #instruct ol li {
-    width: 60vw;
+    width: 100%;
     text-align: left;
     margin-bottom: 2%;
 }
